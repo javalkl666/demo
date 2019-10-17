@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class jenkinsController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String test(){
-        return "hello jenkins hello word";
+        return "hello word  目前";
     }
 }
