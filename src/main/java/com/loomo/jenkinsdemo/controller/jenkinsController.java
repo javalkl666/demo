@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class jenkinsController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String test(){
-        return "jenkins 8888";
+        return "192.168.1.54自动部署成功";
     }
 }
